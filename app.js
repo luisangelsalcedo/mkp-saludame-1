@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 
   !nombre
     ? res.send(`<h1>Hola desconocido!</h1>`)
-    : res.send(`<h1>${nombre}!</h1>`);
+    : res.send(`<h1>Hola ${nombre}!</h1>`);
 });
 
 app.listen("3000", () => {
